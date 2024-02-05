@@ -1,0 +1,36 @@
+body {
+    background-color: #6e5773; /* purple background color */
+    color: white; /* white text color */
+    font-family: Arial, sans-serif; /* choose your desired font-family */
+    text-align: center; /* center-align all text */
+}
+
+#main {
+    margin: 0 auto; /* center-align the main content */
+    max-width: 800px; /* set maximum width for main content */
+}
+
+h1, h3, h4, h5, p, a {
+    margin: 10px 0; /* add some spacing between elements */
+}
+
+img {
+    display: block; /* center-align images */
+    margin: 0 auto; /* center-align images */
+    max-width: 100%; /* ensure images don't exceed container width */
+}
+
+#img-caption {
+    margin-top: 10px; /* add some spacing between image and caption */
+}
+
+#tribute-link {
+    display: block; /* make link appear as a block element */
+    margin-top: 20px; /* add spacing below paragraph for link */
+    color: #d3c0d2; /* purple link color */
+    text-decoration: none; /* remove default underline */
+}
+
+#tribute-link:hover {
+    text-decoration: underline; /* underline link on hover */
+}
